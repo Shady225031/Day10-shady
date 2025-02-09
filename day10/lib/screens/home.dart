@@ -10,7 +10,6 @@ class HomePage extends StatelessWidget {
       {'icon': Icons.category, 'text': 'Categories', 'route': 'categories'},
       {'icon': Icons.shopping_cart, 'text': 'Products', 'route': 'products'},
       {'icon': Icons.movie, 'text': 'Movies', 'route': 'movies'},
-      {'icon': Icons.tv, 'text': 'TV Shows', 'route': 'tvshows'},
       {'icon': Icons.dashboard, 'text': 'Product Dashboard', 'route': 'productDashbord'},
       {'icon': Icons.movie_filter, 'text': 'Movies Dashboard', 'route': 'moviesDashbord'},
     ];

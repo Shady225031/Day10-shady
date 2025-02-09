@@ -8,7 +8,6 @@ import 'package:day10/screens/product-dashboard.dart';
 import 'package:day10/screens/product_details.dart';
 import 'package:day10/screens/product_list.dart';
 import 'package:day10/screens/settings.dart';
-import 'package:day10/screens/tvshow_screen.dart'; 
 import 'package:flutter/material.dart';
 
 void main() {
@@ -29,7 +28,6 @@ class MyApp extends StatelessWidget {
         'categories': (context) => CategoriesPage(),
         'products': (context) => ProductListPage(),
         'movies': (context) => MovieListPage(),
-        'tvshows': (context) => TvShowListPage(), 
         'productDashbord': (context) => ProductDashboard(),
         'moviesDashbord': (context) => MovieDashboard(),
       },
